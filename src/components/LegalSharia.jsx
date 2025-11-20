@@ -7,18 +7,25 @@ const LegalSharia = () => {
         <div className="rounded-2xl border border-slate-200 p-8 bg-white">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 tracking-tight">الشرعية والترخيص</h2>
-              <p className="mt-3 text-slate-700">نلتزم في جياد المالية بأحكام الشريعة الإسلامية، وتخضع جميع منتجاتنا لمراجعة لجنة شرعية مستقلة.</p>
-              <p className="mt-2 text-slate-700">جياد المالية مرخصة من هيئة السوق المالية لممارسة أنشطة الترتيب.</p>
-              <div className="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-slate-700">
-                <button className="rounded-xl border border-slate-200 bg-white p-4 hover:bg-slate-50 transition">الشهادة الشرعية</button>
-                <button className="rounded-xl border border-slate-200 bg-white p-4 hover:bg-slate-50 transition">إعلان الترخيص</button>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">مراجعة شرعية سنوية</div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">إطار حماية المستثمر</div>
+              <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Sharia & Licensing</h2>
+              <div className="mt-4 grid sm:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-slate-900">Sharia Compliance</h3>
+                  <p className="mt-2 text-slate-700">All financial and investment products at JYAD Financial comply with Islamic Sharia principles and are reviewed by an independent Sharia Board.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-slate-900">Regulatory License</h3>
+                  <p className="mt-2 text-slate-700">JYAD Financial is licensed by the Capital Market Authority (CMA) to conduct Arranging Activities.</p>
+                </div>
+              </div>
+
+              <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-slate-700">
+                <button className="rounded-xl border border-slate-200 bg-white px-4 py-2 hover:bg-slate-50 transition">Sharia Certificate</button>
+                <button className="rounded-xl border border-slate-200 bg-white px-4 py-2 hover:bg-slate-50 transition">License Announcement</button>
               </div>
             </div>
             <div className="rounded-2xl border border-slate-200 bg-white h-56 flex items-center justify-center text-slate-500">
-              سيتم إتاحة الشهادات قريبًا
+              Certificates and documents coming soon
             </div>
           </div>
         </div>

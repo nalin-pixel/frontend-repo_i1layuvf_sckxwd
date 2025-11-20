@@ -4,18 +4,18 @@ import { ShieldCheck, LineChart, Star } from 'lucide-react'
 const items = [
   {
     icon: ShieldCheck,
-    title: 'وضوح تام',
-    desc: 'نوضح أسباب الموافقة على كل فرصة، لأن تمويلك مسؤوليتنا واستثمارك هو استثمارنا.'
+    title: 'Complete Clarity',
+    desc: 'We clearly explain why we approve each investment opportunity — your funding is our responsibility and your investment is our investment.'
   },
   {
     icon: LineChart,
-    title: 'تحليل شامل',
-    desc: 'ندرس كل مشروع بدقة ولا نطرحه إلا إذا أثبت جدواه وقدرته على تحقيق نمو حقيقي.'
+    title: 'Comprehensive Analysis',
+    desc: 'We thoroughly analyze every project and publish it only after it proves strong fundamentals and real growth potential.'
   },
   {
     icon: Star,
-    title: 'انتقاء بعناية',
-    desc: 'لسنا نمول كل شركة، بل نمول فقط ما يستحق أن يُسمى استثمارًا.'
+    title: 'Careful Selection',
+    desc: 'We do not finance every company — only those that truly qualify as real investment opportunities.'
   },
 ]
 
@@ -23,8 +23,8 @@ const HowItWorks = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">كيف نعمل؟</h2>
-        <p className="mt-2 text-slate-600">منهجية تعتمد على الشفافية والتحليل العميق والحوكمة الشرعية.</p>
+        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">How We Work</h2>
+        <p className="mt-2 text-slate-600">A methodology grounded in transparency, deep analysis, and governance.</p>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map(({ icon: Icon, title, desc }) => (
