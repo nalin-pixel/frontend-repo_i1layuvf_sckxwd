@@ -7,7 +7,7 @@ const linkClass = ({ isActive }) =>
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-white/60 backdrop-blur-xl border-b border-slate-200/60">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-white border-b border-slate-200/60">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link to="/" className="w-9 h-9 rounded-xl bg-[#224F56] flex items-center justify-center text-white font-bold shadow-lg shadow-[#224F56]/20">ج</Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-2">
-          <button className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/70 border border-slate-200 text-slate-700 hover:bg-white transition-colors">
+          <button className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors">
             <Globe size={16} />
             <span className="text-sm">العربية</span>
             <ChevronDown size={14} className="opacity-70" />

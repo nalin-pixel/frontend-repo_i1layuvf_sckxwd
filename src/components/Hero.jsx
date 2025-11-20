@@ -3,11 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <section className="relative pt-28 pb-10 overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white pointer-events-none"></div>
-      </div>
-
+    <section className="relative pt-28 pb-10 overflow-hidden bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="lg:col-span-2">

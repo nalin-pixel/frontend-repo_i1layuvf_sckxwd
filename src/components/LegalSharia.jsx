@@ -2,9 +2,9 @@ import React from 'react'
 
 const LegalSharia = () => {
   return (
-    <section className="py-16">
+    <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-xl p-8">
+        <div className="rounded-2xl border border-slate-200 p-8 bg-white">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
               <h2 className="text-3xl font-bold text-slate-900 tracking-tight">الشرعية والترخيص</h2>
@@ -17,7 +17,7 @@ const LegalSharia = () => {
                 <div className="rounded-xl border border-slate-200 bg-white p-4">إطار حماية المستثمر</div>
               </div>
             </div>
-            <div className="rounded-2xl border border-slate-200 bg-white/70 h-56 flex items-center justify-center text-slate-500">
+            <div className="rounded-2xl border border-slate-200 bg-white h-56 flex items-center justify-center text-slate-500">
               سيتم إتاحة الشهادات قريبًا
             </div>
           </div>
