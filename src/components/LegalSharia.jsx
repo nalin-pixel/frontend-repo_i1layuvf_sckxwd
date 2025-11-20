@@ -7,17 +7,18 @@ const LegalSharia = () => {
         <div className="rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-xl p-8">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Legal and Sharia governance</h2>
-              <p className="mt-3 text-slate-600">Licensed by the Capital Markets Authority (CMA). Our Sharia Board oversees every structure and issuance.</p>
+              <h2 className="text-3xl font-bold text-slate-900 tracking-tight">الشرعية والترخيص</h2>
+              <p className="mt-3 text-slate-700">نلتزم في جياد المالية بأحكام الشريعة الإسلامية، وتخضع جميع منتجاتنا لمراجعة لجنة شرعية مستقلة.</p>
+              <p className="mt-2 text-slate-700">جياد المالية مرخصة من هيئة السوق المالية لممارسة أنشطة الترتيب.</p>
               <div className="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-slate-700">
-                <div className="rounded-xl border border-slate-200 bg-white p-4">CMA License: Pending • Placeholder</div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">Sharia Board: Placeholder names</div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">Annual Sharia audit report</div>
-                <div className="rounded-xl border border-slate-200 bg-white p-4">Investor protection framework</div>
+                <button className="rounded-xl border border-slate-200 bg-white p-4 hover:bg-slate-50 transition">الشهادة الشرعية</button>
+                <button className="rounded-xl border border-slate-200 bg-white p-4 hover:bg-slate-50 transition">إعلان الترخيص</button>
+                <div className="rounded-xl border border-slate-200 bg-white p-4">مراجعة شرعية سنوية</div>
+                <div className="rounded-xl border border-slate-200 bg-white p-4">إطار حماية المستثمر</div>
               </div>
             </div>
             <div className="rounded-2xl border border-slate-200 bg-white/70 h-56 flex items-center justify-center text-slate-500">
-              Upload of licenses and certificates coming soon
+              سيتم إتاحة الشهادات قريبًا
             </div>
           </div>
         </div>

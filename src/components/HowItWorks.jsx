@@ -4,18 +4,18 @@ import { ShieldCheck, LineChart, Star } from 'lucide-react'
 const items = [
   {
     icon: ShieldCheck,
-    title: 'Complete transparency',
-    desc: 'Clear terms, visible fees, and continuous reporting on every Sukuk issuance.'
+    title: 'وضوح تام',
+    desc: 'نوضح أسباب الموافقة على كل فرصة، لأن تمويلك مسؤوليتنا واستثمارك هو استثمارنا.'
   },
   {
     icon: LineChart,
-    title: 'Detailed project analysis',
-    desc: 'In-depth financial models and credit scoring on each financed company.'
+    title: 'تحليل شامل',
+    desc: 'ندرس كل مشروع بدقة ولا نطرحه إلا إذا أثبت جدواه وقدرته على تحقيق نمو حقيقي.'
   },
   {
     icon: Star,
-    title: 'Cherry picked from the top',
-    desc: 'Only high-potential, Sharia-compliant companies make it to our marketplace.'
+    title: 'انتقاء بعناية',
+    desc: 'لسنا نمول كل شركة، بل نمول فقط ما يستحق أن يُسمى استثمارًا.'
   },
 ]
 
@@ -23,8 +23,8 @@ const HowItWorks = () => {
   return (
     <section className="py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">How do we work</h2>
-        <p className="mt-2 text-slate-600">Our approach blends technology, data and Sharia governance to deliver trust and performance.</p>
+        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">كيف نعمل؟</h2>
+        <p className="mt-2 text-slate-600">منهجية تعتمد على الشفافية والتحليل العميق والحوكمة الشرعية.</p>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map(({ icon: Icon, title, desc }) => (
